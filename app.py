@@ -6,6 +6,6 @@ MESSAGE = os.environ.get("APP_MESSAGE", "Bonjour depuis le conteneur !")
 
 @app.route("/")
 def index():
-    return "[v1.0.1] " + MESSAGE + "\n"
+    return "[v1.0.2] " + MESSAGE + "\n"
 
-app+.run(host="0.0.0.0", port=5000)
+app.run(host="0.0.0.0", port=5000)
